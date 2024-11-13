@@ -38,6 +38,48 @@ p {
 .navbar-brand img {
     width: 80px;
 }
+
+/* Ensure the heading and icon are centered */
+.heading {
+    text-align: center;
+    margin-bottom: 30px; /* Adds space below the heading */
+}
+
+.heading .icon-logo img {
+    display: block;
+    margin: 0 auto 10px; /* Centers the logo */
+}
+
+/* Center the row */
+.dev-list {
+    display: flex;
+    justify-content: center; /* Centers the items horizontally */
+    align-items: center; /* Vertically centers the items */
+    flex-wrap: wrap; /* Ensures that the items wrap properly on smaller screens */
+}
+
+/* If you want the content inside the widget to be centered */
+.widget {
+    text-align: center;
+}
+
+/* Centering the image and text */
+.widget img {
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px; /* Optional: adds rounded corners to the image */
+}
+
+/* Center the social media buttons */
+.footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Adds space between the icons */
+}
+.footer-social a {
+    text-decoration: none;
+}
+
 #preloader {
     width: 100%;
     height: 100%;
@@ -1285,6 +1327,7 @@ body.clinic_version .desc {
     width: 100%;
 }
 	
+
 }
 
 @media (min-width:768px) and (max-width:991px) {
